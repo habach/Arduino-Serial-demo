@@ -7,7 +7,7 @@ volatile boolean stringComplete1 = false; // whether the string is complete
 char ch;
 
 void setup() {
-	Serial.begin(9600);
+	Serial.begin(9600); //hhhheee
 	Serial1.begin(115200);
 	inputString.reserve(200);
 	inputString1.reserve(200);
